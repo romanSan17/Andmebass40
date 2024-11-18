@@ -39,9 +39,17 @@
             this.toodeDataSet = new Andmebass40.ToodeDataSet();
             this.toodeDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.LisaBut = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.KustutaBtn = new System.Windows.Forms.Button();
+            this.UuendaBtn = new System.Windows.Forms.Button();
+            this.toodeDataSet1 = new Andmebass40.ToodeDataSet();
+            this.toodeDataSet2 = new Andmebass40.ToodeDataSet();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -123,11 +131,52 @@
             this.LisaBut.UseVisualStyleBackColor = true;
             this.LisaBut.Click += new System.EventHandler(this.LisaBut_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(495, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(177, 218);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // KustutaBtn
+            // 
+            this.KustutaBtn.Location = new System.Drawing.Point(189, 206);
+            this.KustutaBtn.Name = "KustutaBtn";
+            this.KustutaBtn.Size = new System.Drawing.Size(80, 37);
+            this.KustutaBtn.TabIndex = 9;
+            this.KustutaBtn.Text = "Kustuta";
+            this.KustutaBtn.UseVisualStyleBackColor = true;
+            this.KustutaBtn.Click += new System.EventHandler(this.KustutaBtn_Click);
+            // 
+            // UuendaBtn
+            // 
+            this.UuendaBtn.Location = new System.Drawing.Point(297, 206);
+            this.UuendaBtn.Name = "UuendaBtn";
+            this.UuendaBtn.Size = new System.Drawing.Size(80, 37);
+            this.UuendaBtn.TabIndex = 10;
+            this.UuendaBtn.Text = "Uuenda";
+            this.UuendaBtn.UseVisualStyleBackColor = true;
+            this.UuendaBtn.Click += new System.EventHandler(this.UuendaBtn_Click);
+            // 
+            // toodeDataSet1
+            // 
+            this.toodeDataSet1.DataSetName = "ToodeDataSet";
+            this.toodeDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // toodeDataSet2
+            // 
+            this.toodeDataSet2.DataSetName = "ToodeDataSet";
+            this.toodeDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.UuendaBtn);
+            this.Controls.Add(this.KustutaBtn);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.LisaBut);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.Hindtxt);
@@ -141,6 +190,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -158,6 +210,11 @@
         private System.Windows.Forms.BindingSource toodeDataSetBindingSource;
         private ToodeDataSet toodeDataSet;
         private System.Windows.Forms.Button LisaBut;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button KustutaBtn;
+        private System.Windows.Forms.Button UuendaBtn;
+        private ToodeDataSet toodeDataSet1;
+        private ToodeDataSet toodeDataSet2;
     }
 }
 
