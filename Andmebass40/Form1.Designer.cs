@@ -44,12 +44,15 @@
             this.UuendaBtn = new System.Windows.Forms.Button();
             this.toodeDataSet1 = new Andmebass40.ToodeDataSet();
             this.toodeDataSet2 = new Andmebass40.ToodeDataSet();
+            this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.productsTableAdapter = new Andmebass40.ToodeDataSetTableAdapters.ProductsTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSetBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -169,6 +172,15 @@
             this.toodeDataSet2.DataSetName = "ToodeDataSet";
             this.toodeDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // productsBindingSource
+            // 
+            this.productsBindingSource.DataMember = "Products";
+            this.productsBindingSource.DataSource = this.toodeDataSetBindingSource;
+            // 
+            // productsTableAdapter
+            // 
+            this.productsTableAdapter.ClearBeforeFill = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,12 +199,14 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toodeDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,6 +229,8 @@
         private System.Windows.Forms.Button UuendaBtn;
         private ToodeDataSet toodeDataSet1;
         private ToodeDataSet toodeDataSet2;
+        private System.Windows.Forms.BindingSource productsBindingSource;
+        private ToodeDataSetTableAdapters.ProductsTableAdapter productsTableAdapter;
     }
 }
 
