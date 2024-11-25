@@ -1,0 +1,10 @@
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\obj\Debug\andmebaas C#.csproj.AssemblyReference.cache
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\obj\Debug\andmebaas_C_.Form2.resources
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\obj\Debug\andmebaas_C_.Properties.Resources.resources
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\obj\Debug\andmebaas C#.csproj.GenerateResource.cache
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\obj\Debug\andmebaas C#.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\bin\Debug\andmebaas C#.exe.config
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\bin\Debug\andmebaas C#.exe
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\bin\Debug\andmebaas C#.pdb
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\obj\Debug\andmebaas C#.exe
+C:\Users\opilane\Source\Repos\andmebaas-C-2\andmebaas C#\obj\Debug\andmebaas C#.pdb
